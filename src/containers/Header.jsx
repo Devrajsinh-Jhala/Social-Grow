@@ -1,5 +1,6 @@
 import React from "react";
 import Web from "../assets/Modified Banner Image.png";
+import Mobile from "../assets/Mobile View.png";
 
 const Header = () => {
   return (
@@ -20,7 +21,8 @@ const Header = () => {
         </p>
 
         <div className=" mt-10 md:mt-20 mb-5 object-cover">
-          <img src={Web} alt={Web} />
+          <img className=" hidden sm:block object-cover" src={Web} alt={Web} />
+          <img className=" sm:hidden object-cover" src={Mobile} alt={Mobile} />
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMediaBlock = ({ Image, Heading, Description }) => {
   return (
-    <div className="flex w-[401px] mb-10 flex-col items-center justify-between">
+    <div className="flex lg:w-[401px] mb-10 flex-col items-center justify-between">
       <div>
         <img className=" m-8 w-[100px]" src={Image} alt={Image} />
       </div>
