@@ -6,6 +6,8 @@ module.exports = {
       fontFamily: {
         inter: "'Inter', sans-serif",
         damion: "'Damion', cursive",
+        cookie: "'Cookie', cursive",
+        waterBrush: "'Water Brush', cursive",
       },
 
       textColor: {

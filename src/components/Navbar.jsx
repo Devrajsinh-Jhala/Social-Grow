@@ -34,7 +34,7 @@ const Navbar = () => {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="md:ml-8 text-lg md:my-0 my-7 font-inter"
+              className="md:ml-8 text-base md:my-0 my-7 font-inter"
             >
               <a
                 className="text-gray-800 hover:text-[#e15353] font-semibold duration-500"

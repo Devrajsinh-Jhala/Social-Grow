@@ -3,7 +3,7 @@ import navImage from "../assets/navImage.png";
 
 const Footer = () => {
   return (
-    <div className="flex mt-10 md:mt-40 flex-col items-start md:flex-row px-6 py-5 font-inter ">
+    <div className="flex mt-10 md:mt-24 flex-col items-start md:flex-row px-6 py-5 font-inter ">
       <div className="px-4 py-5 w-full flex flex-col md:w-[36%] ">
         <div className="flex flex-col justify-start w-full">
           <img
@@ -12,10 +12,12 @@ const Footer = () => {
             alt={navImage}
           />
         </div>
-        <h3 className="py-2 font-inter font-bold text-2xl">Socialgrow</h3>
+        <h3 className="py-2 font-inter text-base">
+          Welcome to the era of influencer marketing
+        </h3>
 
         <p className=" py-4 text-[13px]">
-          Copyright © 2022 | Made in India with ♡ from IITB alums | All rights
+          Copyright © 2022 | Made in India with ♡ for Influencers | All rights
           reserved
         </p>
       </div>
@@ -23,15 +25,15 @@ const Footer = () => {
         <p className=" font-semibold">Company</p>
 
         <p className="py-2 text-[13px] text-[#6b6f76]">About us</p>
-        <p className="py-2 text-[13px] text-[#6b6f76]">Partners</p>
+        <p className="py-2 text-[13px] text-[#6b6f76]">Blog</p>
+        <p className="py-2 text-[13px] text-[#6b6f76]">Request Feature</p>
         <p className="py-2 text-[13px] text-[#6b6f76]">Careers</p>
-        <p className="py-2 text-[13px] text-[#6b6f76]">info@languify.in</p>
       </div>
-      <div className="px-4 py-5 w-full md:w-[36%]">
+      <div className="px-4 md:-mt-4 py-5 w-full md:w-[36%]">
         <p className="font-semibold">Social</p>
         <p className="py-2 text-[13px] text-[#6b6f76]">Instagram</p>
         <p className="py-2 text-[13px] text-[#6b6f76]">Facebook</p>
-        <p className="py-2 text-[13px] text-[#6b6f76]">Linked In</p>
+        <p className="py-2 text-[13px] text-[#6b6f76]">LinkedIn</p>
       </div>
     </div>
   );

@@ -1,24 +1,22 @@
 import React from "react";
-import TSeries from "../assets/T-series-logo.svg.png";
-import BrandLogo2 from "./BrandLogo2";
 
-const SocialMediaBlock = () => {
+const SocialMediaBlock = ({ Image, Heading, Description }) => {
   return (
-    <div className="flex m-5 mb-10 flex-col items-center justify-center">
+    <div className="flex w-[401px] mb-10 flex-col items-center justify-between">
       <div>
-        <BrandLogo2 image={TSeries} />
+        <img className=" m-8 w-[100px]" src={Image} alt={Image} />
       </div>
 
-      <div>
-        <h2 className="font-inter text-center w-full tracking-normal  pb-4 leading-10 md:leading-5 text-[30px] md:text-[36px] font-extrabold">
-          98.6%
+      <div className=" flex flex-col md:flex-row items-center justify-center">
+        <h2 className="font-inter text-center tracking-normal  pb-4 leading-10 md:leading-5 text-[30px] md:text-[36px] font-extrabold">
+          {Heading}
         </h2>
       </div>
 
       <div>
-        <p className="px-5 text-center font-inter tracking-widest leading-7 ">
+        <p className="px-10 text-center font-inter tracking-tight ">
           {" "}
-          3,5 MILLIARDEN AKTIVE SOCIAL MEDIA USER TÄGLICH
+          {Description}
         </p>
       </div>
     </div>

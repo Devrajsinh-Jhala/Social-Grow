@@ -16,8 +16,8 @@ import BrandLogo2 from "../components/BrandLogo2";
 const Company = () => {
   return (
     <div className="">
-      <h2 className=" mt-10 md:mt-40 px-5 text-center font-inter w-full pb-4 leading-10 md:leading-5 text-[30px] md:text-[36px] font-extrabold">
-        We work with best of the best
+      <h2 className=" mt-8 md:mt-24 px-5 tracking-tight text-center font-inter w-full pb-4 leading-10 md:leading-5 text-[28px] md:text-[32px] font-extrabold">
+        We work with the best in the business
       </h2>
 
       <div className="flex cursor-pointer mt-5 px-5 gap-2 flex-col md:flex-row items-center justify-center">
